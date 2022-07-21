@@ -1,0 +1,197 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "datePublished": "2022-07-20T23:39:21+00:00",
+            "hasPart": [
+                {
+                    "@id": "jupyter.ipynb"
+                }
+            ]
+        },
+        {
+            "@id": "ro-crate-metadata.json",
+            "@type": "CreativeWork",
+            "about": {
+                "@id": "./"
+            },
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.1"
+            }
+        },
+        {
+            "@id": "jupyter.ipynb",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0000-0000-0000"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0000-0000-0001"
+                }
+            ],
+            "cells": [
+                {
+                    "@id": "#code_cell-0"
+                },
+                {
+                    "@id": "#code_cell-1"
+                },
+                {
+                    "@id": "#code_cell-2"
+                },
+                {
+                    "@id": "#code_cell-3"
+                },
+                {
+                    "@id": "#code_cell-4"
+                },
+                {
+                    "@id": "#code_cell-5"
+                },
+                {
+                    "@id": "#code_cell-6"
+                },
+                {
+                    "@id": "#code_cell-7"
+                },
+                {
+                    "@id": "#code_cell-8"
+                },
+                {
+                    "@id": "#code_cell-9"
+                },
+                {
+                    "@id": "#code_cell-10"
+                },
+                {
+                    "@id": "#code_cell-11"
+                },
+                {
+                    "@id": "#code_cell-12"
+                },
+                {
+                    "@id": "#code_cell-13"
+                },
+                {
+                    "@id": "#code_cell-14"
+                },
+                {
+                    "@id": "#code_cell-15"
+                }
+            ],
+            "encodingFormat": "application/json",
+            "name": "jupyternotebook"
+        },
+        {
+            "@id": "#code_cell-0",
+            "@type": "cell",
+            "content": " This is method a it prints Process a",
+            "outputs": []
+        },
+        {
+            "@id": "#code_cell-1",
+            "@type": "cell",
+            "content": " aaaaaa ",
+            "outputs": []
+        },
+        {
+            "@id": "#code_cell-2",
+            "@type": "cell",
+            "content": "from roanno import cell, rocrate",
+            "outputs": []
+        },
+        {
+            "@id": "#code_cell-3",
+            "@type": "cell",
+            "content": "@cell \ndef a():\n    print(\"Process a\");\n",
+            "outputs": []
+        },
+        {
+            "@id": "#code_cell-4",
+            "@type": "cell",
+            "content": "a()",
+            "outputs": []
+        },
+        {
+            "@id": "#code_cell-5",
+            "@type": "cell",
+            "content": "@cell\ndef b():\n    print(\"Process b\");\n",
+            "outputs": []
+        },
+        {
+            "@id": "#code_cell-6",
+            "@type": "cell",
+            "content": "b()",
+            "outputs": []
+        },
+        {
+            "@id": "#code_cell-7",
+            "@type": "cell",
+            "content": "@cell\ndef c():\n    print(\"Process c\");\n",
+            "outputs": []
+        },
+        {
+            "@id": "#code_cell-8",
+            "@type": "cell",
+            "content": "c()",
+            "outputs": []
+        },
+        {
+            "@id": "#code_cell-9",
+            "@type": "cell",
+            "content": "@cell \ndef d():\n    print(\"Process d\")\n",
+            "outputs": []
+        },
+        {
+            "@id": "#code_cell-10",
+            "@type": "cell",
+            "content": "d()",
+            "outputs": []
+        },
+        {
+            "@id": "#code_cell-11",
+            "@type": "cell",
+            "content": "@cell\ndef e():\n    print(\"Process e\")\n",
+            "outputs": []
+        },
+        {
+            "@id": "#code_cell-12",
+            "@type": "cell",
+            "content": "e()",
+            "outputs": []
+        },
+        {
+            "@id": "#code_cell-13",
+            "@type": "cell",
+            "content": "@rocrate    \n@cell\ndef f():\n    print(\"Process f\")\n    e()    \n",
+            "outputs": []
+        },
+        {
+            "@id": "#code_cell-14",
+            "@type": "cell",
+            "content": "f()",
+            "outputs": []
+        },
+        {
+            "@id": "#code_cell-15",
+            "@type": "cell",
+            "content": "",
+            "outputs": []
+        },
+        {
+            "@id": "https://orcid.org/0000-0000-0000-0000",
+            "@type": "Person",
+            "affiliation": "University of Manchester",
+            "name": "Alice Doe"
+        },
+        {
+            "@id": "https://orcid.org/0000-0000-0000-0001",
+            "@type": "Person",
+            "affiliation": "University of Manchester",
+            "name": "Bob Doe"
+        }
+    ]
+}
