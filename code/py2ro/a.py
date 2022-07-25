@@ -11,7 +11,7 @@ def a():
 def b():
     print("Process b");
 
-    
+# This is method c    
 @cell
 def c():
     print("Process c");
