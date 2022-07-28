@@ -1,2 +1,4 @@
 .vscode/launch.json
 result/*
+code/py2ro/__pycache__
+code/py2ro/.ipynb_checkpoints
