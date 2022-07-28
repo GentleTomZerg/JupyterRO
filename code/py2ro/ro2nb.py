@@ -8,7 +8,8 @@ def get_ro_cells(filename):
     ro_cells = []
     crate = ROCrate(filename)
     for e in crate.contextual_entities:
-        ro_cells.append(e._jsonld)
+        if(e._jsonld['@type'] == 'cell'):
+            ro_cells.append(e._jsonld)
     return ro_cells
 
 

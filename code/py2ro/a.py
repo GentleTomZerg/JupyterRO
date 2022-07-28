@@ -10,6 +10,7 @@ def a():
 @cell
 def b():
     print("Process b");
+    a()
 
 # This is method c    
 @cell
